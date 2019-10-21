@@ -32,7 +32,7 @@ function loadPoet(type) {
         type: Sequelize.STRING
       },
       author_id: {
-        type: Sequelize.STRING
+        type: Sequelize.INTEGER
       },
       paragraphs: {
         type: Sequelize.TEXT
